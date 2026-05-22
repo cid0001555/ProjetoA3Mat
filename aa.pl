@@ -61,10 +61,6 @@ habitatAtual(feraligatr,mata_densa).
 habitatAtual(arrokuda,rio).
 habitatAtual(wurmple,rio).
 
-
-
-
-
 feliz(Pokemon) :-
     habitatNatural(Pokemon, Habitat),
     habitatAtual(Pokemon, Habitat).
